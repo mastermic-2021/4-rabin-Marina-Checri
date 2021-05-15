@@ -41,7 +41,7 @@ test_Miller_Rabin (n, x)={
  * Nota Bene : cette méthode fonctionne seulement parce que p et q sont tous les deux congrus à 3 mod 4
  
  
- *On a accès à la fonction de chiffrement et de déchiffrement :
+ * On a accès à la fonction de chiffrement et de déchiffrement :
    on peut essayer une attaque à chiffrés choisis !
  * Si l’on a accès au déchiffrement, pour tout message m,
    le déchiffrement de (m^2,−(m/n),m  mod  2) est un m' 
